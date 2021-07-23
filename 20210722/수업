@@ -1,0 +1,11 @@
+POJO  class 
+  
+
+  
+  FileInputStream 읽어 
+  
+   c:/datas/readme.txt
+     abc de fg
+     
+   읽어서 화면에 출력해보자
+       

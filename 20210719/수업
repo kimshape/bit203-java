@@ -1,0 +1,125 @@
+자바명령 
+ OOP 개념 정리 
+    구성요소 , ? , 다형성으로 프로그램?
+    내거화 일상생활 접목 
+    헤드퍼스트 자바 
+ 
+ 자바 규칙 (명명규칙 , 작성규칙)
+ 접근유형(4가지 ) 
+ modifiers : 
+ 	final
+ 	static
+ 	final + static
+ 	abstract
+ 
+ * default , 기본적인 ==> 생력하면 알아서 적용되어지는
+ 
+ 자료형 종류	  
+          
+    원시자료형(연산이 가능)
+        부울린 : false  0  , true 1
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        정수 : int , 4byte 
+           byte
+             ASCII 
+             
+           short/char  2byte 
+            부호             /   X
+            -32768~ 32767   /  0 ~  65535  unicode 
+                            /
+           int
+           long  
+         실수  double
+           float
+           double
+              
+**** 개발자 
+ 메모리관리            
+           
+        
+        실수
+    -------------
+    객체자료형(연산이불가능)
+        Object로 받을 수 있는것==> *.class 인 모든것
+        String 
+        System
+        Date
+        
+///////////////////////////////////////        
+   class  , abstract  , interface
+   
+   배열 --> 동일한 자료형이 연달아 오도록  
+   1차원 
+   
+   구조체 --> class 객체자료형
+   2차원 이상이면 collections(list,set,map)
+   
+   collections(list,set,map)
+     list ==> List  , ArrayList
+     set  ==> Set , 
+              Enumeration
+		      Iterator
+		      ResultSet		
+     
+     map  ==> HashMap , Hashtable
+              key   value
+              json , properties ,  환경설정 값을 
+   
+   
+   
+ ////////////////////////////
+   web --> static 별로 
+   
+ ////////////////
+   file 입출력 
+      java.io.*
+         Reader / Writer
+         InputStream/OutputStream
+          input     /  output 
+   
+   Properties
+   
+ //////////////
+   Thread 개념 --> 
+   
+////////////////
+   예외처리 
+       throw  , throws , try~catch ~finally
+
+
+   ///////
+   상속
+      extends , implements
+      
+   상속, inner 사용 ???
+   
+       
+    private  멤버  상속  X, 
+       자식클래스 접근이 안된다 
+       setter ,getter 
+
+ 상속과 inner 클래스의 구분 언제 사용하는 건지    
+  inner 같은 것 ????
+    public class  바깥어쩌구{
+       
+       public class 안쪽에있는{
+       바깥어쩌구 클래스의 멤버들 중에서 
+          private 적인 멤버에 마치 자기것처럼 접근해서 사용하고 싶다
+       }
+    }
+    
+        
+   
+   
+   
+   
+   
+   
+        
+     
+     
+     
+     
+     
+     
+        
